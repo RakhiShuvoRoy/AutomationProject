@@ -11,6 +11,8 @@ public class BaseClass {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.smarttechqa.com/");
+	
+		System.out.println("i create my automation project");
 		
 	}
 	
